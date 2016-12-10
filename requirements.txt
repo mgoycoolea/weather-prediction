@@ -1,0 +1,3 @@
+# packages in environment at /home/martin/miniconda3/envs/weather_prediction:
+#
+
