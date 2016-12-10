@@ -15,7 +15,7 @@ IS_ANACONDA=$(shell python -c "import sys;t=str('anaconda' in sys.version.lower(
 
 ## Install Python Dependencies
 requirements: test_environment
-	conda install --file requirements.txt
+	conda env update -f environment.yml 
 
 ## Make Dataset
 data: requirements
